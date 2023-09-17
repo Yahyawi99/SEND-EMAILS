@@ -15,7 +15,7 @@ app.use(express.json());
 
 // routes
 app.get("/", (req, res) => {
-  res.send("<h1>Email Project</h1> <a href='/send'></a>");
+  res.send("<h1>Email Project</h1> <a href='/send'>send</a>");
 });
 
 app.get("/send", SendEmail);
